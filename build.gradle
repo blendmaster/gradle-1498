@@ -1,0 +1,10 @@
+apply plugin: 'scala'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compileOnly 'org.projectlombok:lombok:1.16.16'
+  compile 'org.scala-lang:scala-library:2.11.8'
+}
